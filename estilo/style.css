@@ -27,3 +27,12 @@
     --fonte-subtitulo: "Bangers", Arial, sans-serif;
     --fonte-paragrafo: "Roboto", Arial, sans-serif;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor2);
+}
