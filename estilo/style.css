@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: titulo;
+    src: url(../fontes/njnaruto.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(../fontes/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: paragrafo;
+    src: url(../fontes/Roboto-Regular.ttf);
+}
+
 :root {
     --cor0: #FF6C0D;
     --cor1: #F0461A;
