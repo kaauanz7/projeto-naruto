@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: titulo;
+    font-family: njnaruto;
     src: url(../fontes/njnaruto.ttf);
 }
 
 @font-face {
-    font-family: subtitulo;
+    font-family: Bangers;
     src: url(../fontes/Bangers-Regular.ttf);
 }
 
 @font-face {
-    font-family: paragrafo;
+    font-family: Roboto;
     src: url(../fontes/Roboto-Regular.ttf);
 }
 
@@ -22,4 +22,8 @@
     --cor3: #1A1DFF;
     --cor4: #FFFFFF;
     --cor5: #000000;
+
+    --fonte-titulo: "NJnaruto", Arial, sans-serif;
+    --fonte-subtitulo: "Bangers", Arial, sans-serif;
+    --fonte-paragrafo: "Roboto", Arial, sans-serif;
 }
