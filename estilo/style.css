@@ -99,4 +99,33 @@ main {
     text-shadow: 1px 1px 1px var(--cor5);
     font-weight: 200;
     padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+main h2 {
+    background: linear-gradient(to left, rgba(229, 12, 8, 0), #F0461A, #E50C08);
+    padding: 5px 0px 5px 25px;
+    font-family: var(--fonte-subtitulo);
+    color: var(--cor5);
+    font-weight: 400;
+    text-shadow: 1px 1px 5px var(--cor4);
+    margin: 10px 0px 20px 0px;
+}
+
+main h3 a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: var(--fonte-subtitulo);
+    font-weight: 400;
+    text-shadow: 1px 1px 5px var(--cor4);
+    padding: 35px;
+}
+
+main p {
+    padding-left: 5px;
+    text-indent: 10px;
+    font-family: var(--fonte-paragrafo);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: var(--cor5);
 }
