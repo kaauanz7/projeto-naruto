@@ -15,6 +15,10 @@
     src: url(../fontes/Roboto-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --cor0: #FF6C0D;
     --cor1: #F0461A;
@@ -65,23 +69,23 @@ nav {
 }
 
 nav a {
+    display: inline-block;
     text-decoration: none;
     color: var(--cor4);
     font-family: var(--fonte-paragrafo);
     margin: 0px 0px 15px 15px;
-    padding: 15px 15px 15px 0px;
+    padding: 10px;
     font-weight: bold;
     text-shadow: 1px 1px 3px var(--cor5);
-    transition-duration: 0.3ms;
+    transition-duration: 0.3s;
 }
 
 nav a:hover {
     background-color: rgba(37, 37, 228, 0.719);
-    padding: 15px 15px 10px 15px;
     border-radius: 8px;
 }
 
-hr {
+.faixa-naruto {
     background-color: var(--cor4);
     height: 30px;
 }
@@ -136,6 +140,7 @@ main p {
     text-indent: 10px;
     font-family: var(--fonte-paragrafo);
     font-size: 1.1rem;
+    line-height: 1.6;
     letter-spacing: 2px;
     color: var(--cor5);
 }
