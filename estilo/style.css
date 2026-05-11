@@ -20,6 +20,7 @@ html {
 }
 
 :root {
+    --cor-body:#a89c8c;
     --cor0: #FF6C0D;
     --cor1: #F0461A;
     --cor2: #E50C08;
@@ -38,7 +39,9 @@ html {
 }
 
 body {
-    background-color: var(--cor4);
+    background-color: var(--cor5);
+    background-color: var(--cor-body);
+    margin: 0;
 }
 
 /*<!-- Página 1 -->*/
@@ -95,6 +98,8 @@ nav a:hover {
 main {
     background-color: var(--cor0);
     box-shadow: 0px 1px 5px var(--cor5);
+    max-width: 900px;
+    margin: auto;
 }
 
 .titulo {
@@ -249,6 +254,10 @@ aside li a:hover {
     text-decoration: underline;
 }
 
+ul {
+    list-style-type: none;
+}
+
 footer {
     background-color: var(--cor5);
     font-family: Arial, Helvetica, sans-serif;
@@ -274,14 +283,124 @@ footer a:hover {
 
 /*<!-- Página 2 -->*/
 
-section h2.subtitulo-história {
+section h2.subtitulo-historia {
     background: linear-gradient(to left, rgba(229, 12, 8, 0), #F0461A, #E50C08);
+    letter-spacing: 0.3rem;
     text-align: center;
-    padding: 5px 0px 5px 25px;
+    padding:10px 0px 5px 25px;
     font-family: var(--fonte-titulo);
     color: var(--cor5);
     font-weight: 800;
     text-shadow: 1px 1px 2px var(--cor4);
     margin: 10px 0px 20px 0px;
-    padding-top: 10px;
+}
+
+.img-ondas {
+    height: 25rem;
+    background-image: url(../imagens/pais-das-ondas.webp);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-exame {
+    height: 25rem;
+    background-image: url(../imagens/exame-chunnin.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-tsunade {
+    height: 25rem;
+    background-image: url(../imagens/tsunade.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-resgate-sasuke {
+    height: 25rem;
+    background-image: url(../imagens/resgate-sasuke.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-resgate-kazekage {
+    height: 25rem;
+    background-image: url(../imagens/retorno-kazekage.webp);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-hidan-kakuzu {
+    height: 25rem;
+    background-image: url(../imagens/hidan-kakuzu.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-pain {
+    height: 25rem;
+    background-image: url(../imagens/pain.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-reuniao {
+    height: 25rem;
+    background-image: url(../imagens/reuniao-kages.webp);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-guerra {
+    height: 25rem;
+    background-image: url(../imagens/guerra-ninja.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.img-batalha-final {
+    height: 25rem;
+    background-image: url(../imagens/batalha-final.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.363);
 }
