@@ -135,14 +135,23 @@ section#personagens h3 a {
     padding: 35px;
 }
 
+img.time7 {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-height: 30rem;
+}
+
 main p {
     padding-left: 5px;
-    text-indent: 10px;
+    text-indent: 1rem;
     font-family: var(--fonte-paragrafo);
     font-size: 1.1rem;
     line-height: 1.6;
     letter-spacing: 2px;
     color: var(--cor5);
+    line-height: 2rem;
+    padding-left: 1rem;
 }
 
 section#habilidades h3 {
@@ -154,12 +163,14 @@ section#habilidades h3 {
     padding: 0px 0px 10px 35px
 }
 
-section#habilidades li.rasengan:hover {
+section#habilidades h4 {
+    text-decoration: none;
+    color: var(--cor2);
     font-family: var(--fonte-subtitulo);
+    font-size: 2rem;
     font-weight: 400;
-    font-size: large;
-    color: aqua;
-    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.267);
+    text-shadow: 1px 1px 5px var(--cor4);
+    padding: 30px 0px 20px 25px;
 }
 
 section#habilidades li {
@@ -171,12 +182,36 @@ section#habilidades li {
     padding: 10px 0px 10px 35px;
 }
 
-section#habilidades li.modo-sabio:hover {
+section#habilidades li a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: var(--fonte-subtitulo);
+    font-weight: 400;
+    text-shadow: 1px 1px 5px var(--cor4);
+    padding: 10px 0px 10px 35px;
+}
+
+section#habilidades li a.rasengan:hover {
+    font-family: var(--fonte-subtitulo);
+    font-weight: 400;
+    font-size: large;
+    color: aqua;
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.267);
+    text-decoration: underline;
+}
+
+
+section#habilidades li a.modo-sabio:hover {
     font-family: var(--fonte-subtitulo);
     font-weight: 400;
     font-size: large;
     color: var(--cor2);
     text-shadow: 1px 1px 8px var(--cor5);
+    text-decoration: underline;
+}
+
+li a::before {
+    content: "🔗";
 }
 
 aside li.lista {
