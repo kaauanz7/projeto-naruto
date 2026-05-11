@@ -41,6 +41,8 @@ body {
     background-color: var(--cor4);
 }
 
+/*<!-- Página 1 -->*/
+
 header {
     background-color: var(--cor3);
     box-shadow: 0px 1px 8px var(--cor5);
@@ -268,4 +270,18 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor2);
+}
+
+/*<!-- Página 2 -->*/
+
+section h2.subtitulo-história {
+    background: linear-gradient(to left, rgba(229, 12, 8, 0), #F0461A, #E50C08);
+    text-align: center;
+    padding: 5px 0px 5px 25px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor5);
+    font-weight: 800;
+    text-shadow: 1px 1px 2px var(--cor4);
+    margin: 10px 0px 20px 0px;
+    padding-top: 10px;
 }
