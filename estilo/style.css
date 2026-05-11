@@ -191,25 +191,6 @@ section#habilidades li a {
     padding: 10px 0px 10px 35px;
 }
 
-section#habilidades li a.rasengan:hover {
-    font-family: var(--fonte-subtitulo);
-    font-weight: 400;
-    font-size: large;
-    color: aqua;
-    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.267);
-    text-decoration: underline;
-}
-
-
-section#habilidades li a.modo-sabio:hover {
-    font-family: var(--fonte-subtitulo);
-    font-weight: 400;
-    font-size: large;
-    color: var(--cor2);
-    text-shadow: 1px 1px 8px var(--cor5);
-    text-decoration: underline;
-}
-
 li a::before {
     content: "🔗";
 }
