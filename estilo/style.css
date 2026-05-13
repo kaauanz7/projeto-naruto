@@ -315,6 +315,11 @@ section h2.subtitulo-historia {
     background-position: center center;
 }
 
+.img-treinamento-jiraiya {
+    background-image: url(../imagens/treino-jiraya.webp);
+    background-position: center top;
+}
+
 .img-tsunade {
     background-image: url(../imagens/tsunade.jpg);
     background-position: center bottom;
@@ -325,14 +330,29 @@ section h2.subtitulo-historia {
     background-position: center center;
 }
 
+.img-treinamento-jiraiya-shippuden {
+    background-image: url(../imagens/naruto-volta.webp);
+    background-position: center bottom;
+}
+
 .img-resgate-kazekage {
     background-image: url(../imagens/retorno-kazekage.webp);
+    background-position: center top;
+}
+
+.img-treinamento-rasenshuriken {
+    background-image: url(../imagens/naruto-kakashi.jpg);
     background-position: center top;
 }
 
 .img-hidan-kakuzu {
     background-image: url(../imagens/hidan-kakuzu.jpg);
     background-position: center top;
+}
+
+.img-treinamento-myoboku {
+    background-image: url(../imagens/naruto-myoboku.avif);
+    background-position: center center;
 }
 
 .img-pain {
@@ -343,6 +363,11 @@ section h2.subtitulo-historia {
 .img-reuniao {
     background-image: url(../imagens/reuniao-kages.webp);
     background-position: center top;
+}
+
+.img-treinamento-killer-bee {
+    background-image: url(../imagens/naruto-killer-bee.png);
+    background-position: center center;
 }
 
 .img-guerra {
