@@ -39,7 +39,6 @@ html {
 }
 
 body {
-    background-color: var(--cor5);
     background-color: var(--cor-body);
     margin: 0;
 }
@@ -469,5 +468,49 @@ section h2.subtitulo-historia {
 
     .img-historia {
         height: 15rem;
+    }
+     nav a {
+        display: block;
+        text-align: center;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 10px;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    main p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .img-historia {
+        height: 15rem;
+        margin: 1rem;
+    }
+
+    section h2.subtitulo-historia {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        padding: 10px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    section#habilidades li,
+    aside li {
+        padding-left: 15px;
+        font-size: 1rem;
     }
 }
