@@ -82,12 +82,13 @@ nav a {
     padding: 10px;
     font-weight: bold;
     text-shadow: 1px 1px 3px var(--cor5);
-    transition-duration: 0.3s;
+    transition: 0.4s ease-in-out;
 }
 
 nav a:hover {
     background-color: rgba(37, 37, 228, 0.719);
     border-radius: 8px;
+    transform: translateY(-4px);
 }
 
 .faixa-naruto {
@@ -147,6 +148,13 @@ img.time7 {
     margin: auto;
     width: 80%;
     max-height: 30rem;
+    border-radius: 3px;
+}
+
+img.time7:hover {
+    transform: scale(1.02);
+    transition: 0.4s ease-in-out;
+    box-shadow: 1px 1px 10px var(--cor4);
 }
 
 main p {
